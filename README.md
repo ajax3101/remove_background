@@ -1,9 +1,11 @@
 # remove_background
 [![Python Version](https://img.shields.io/badge/python-3.10-brightgreen.svg)](https://python.org)
+
 Is a tool to remove images background.
 Работаем с функциями, модулями pillow и rembg, пишем программу для удаления фона изображений
 Используем библеотеку U2Net
-U2Net : A machine learning model that performs object cropping in a single shot
+
+## U2Net : A machine learning model that performs object cropping in a single shot
 
 ## Running the Project Locally
 
