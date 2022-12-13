@@ -11,7 +11,7 @@ def remove_bg():
     for ext in list_of_extensions:
         all_files.extend(Path('input_imgs').glob(ext))
 
-    for index, item in enumerate(all_files):
+    for index, item in enumerate(all_files, 1):
         input_path = Path(item)
         file_name = input_path.stem
 
@@ -21,7 +21,7 @@ def remove_bg():
         output_img = remove(input_img)
         output_img.save(output_path)
 
-        print(f'Completed: {index + 1}/{len(all_files)}')
+        print(f'Completed: {index}/{len(all_files)}')
 
 
 def main():
